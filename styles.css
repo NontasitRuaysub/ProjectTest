@@ -1,0 +1,84 @@
+/* header nav header - section */
+.header-nav-contact {
+    background-color: #A82F14;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-contact-detail {
+    display: inline;
+}
+/* Nav bar - section */
+.zudeepaint-logo {
+    height: 50px;
+    margin-left: 10%;
+}
+.navbar-nav {
+    margin-left: 30%;
+}
+
+/* Welcome-Section */
+.welcome-section {
+    margin: 5% auto;
+    text-align: center;
+}
+.welcome-service-images-group {
+    margin-top: 3% ;
+}
+/* Best seller products-Section  */
+#best-seller-products {
+    text-align: center;
+}
+.best-seller-products-card {
+    padding: 3% 3%;
+    
+}
+/* CTA - Section */
+#cta {
+    background-color: #e7e6e1;
+    margin: 5% auto;
+}
+.cta-id-line {
+    text-align: center;
+}
+.cta-id-line-image {
+    height: 200px;
+    width: 200px;
+}
+.cta-details {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* Trusted Brand - Section */
+#trusted-Brand {
+    text-align: center;
+}
+.trusted-brand-image {
+    height: 20%;
+    width: 20%;
+    margin: 3% auto;
+}
+/* Article-section */
+#articles-section {
+    text-align: center;
+}
+.card-group {
+    margin: 5% auto;
+}
+.card {
+    padding: 2% 2%;
+}
+/* footer-Section */
+.footer-nav-item {
+    text-decoration: none;
+    color: black;
+}
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-location-detail {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}

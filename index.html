@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- My own styles sheet -->
+    <link rel="stylesheet" href="images/flat-icons/flaticon.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zudeepaint</title>
+</head>
+
+<body>
+    <header class="container-fluid header-nav-contact">
+        <i class="flaticon-line"></i>
+        <p class="header-contact-detail">Line id: @sudeepaint</p>
+        <i class="flaticon-phone-call"></i>
+        <p class="header-contact-detail">098-xxx-xxx</p>
+    </header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Navbar-Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo.jpg" alt="Zudeepaint" class="zudeepaint-logo d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Nav-Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            สินค้า
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <li><a class="dropdown-item" href="#">ยี่ห้อ</a>
+
+                            </li>
+                            <li><a class="dropdown-item" href="#">สีทาอาคาร</a></li>
+                            <li><a class="dropdown-item" href="#">สีทาเรือ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">โปรโมชั่นและข่าวสาร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">บทความ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <Main>
+        <!-- Carousel - Section -->
+        <div id="welcomecarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel-images/carousel-image-1.jpg" class="d-block w-100" alt="carousel images">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-images/carousel-image-2.jpg" class="d-block w-100" alt="carousel images">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-images/carousel-image-3.jpg" class="d-block w-100" alt="carousel images">
+                </div>
+            </div>
+        </div>
+        <!-- Welcome-Section -->
+        <section class="welcome-section container">
+            <header>
+                <h2>บริการด้วยใจ เพราะคุณคือ ลูกค้า คนสำคัญ</h2>
+                <p>กว่า 30 ปีที่สุดีเพ้นท์เซ็นเตอร์ให้บริการจำหน่ายสี และได้รับความไว้วางใจจากลูกค้าอย่างดีมาโดยตลอด
+                    ทางเรามีสินค้าหลากหลาย ครบทุกยี่ห้อ พร้อมเจ้าที่คอยให้คำแนะนำ ให้คำปรึกษาการเลือกสี
+                    การออกแบบสีที่ครบวงจร</p>
+            </header>
+            <figure class="welcome-service-images-group container">
+                <div class="row">
+                    <img class="welcome-service-images col-lg-4 col-sm-12"
+                        src="images\welcome-slogan-images\welcome-slogan_1.jpg" alt="Welcome image">
+                    <img class="welcome-service-images col-lg-4 col-sm-12"
+                        src="images\welcome-slogan-images\welcome-slogan_2.jpg" alt="Welcome image">
+                    <img class="welcome-service-images col-lg-4 col-sm-12"
+                        src="images\welcome-slogan-images\welcome-slogan_3.jpg" alt="Welcome image">
+                </div>
+            </figure>
+
+        </section>
+        <!-- Best seller products-Section -->
+        <section id="best-seller-products">
+            <h2>สินค้าขายดี</h2>
+            <div class="container">
+                <!-- Best Seller products row 1 -->
+                <div class="row">
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button type="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button type="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button type="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button ttype="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button type="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                    <div class="card best-seller-products-card col-lg-4">
+                        <img src="images\best-seller\toa\bestseller-toa.jpg" alt="TOA Best Seller">
+                        <div class="card-body">
+                            <h5 class="card-title">ซุปเปอร์ชิลด์ สีน้ำอะครีลิค ชนิดกึ่งเงา # เบส A / Toa Supershield
+                                Semi -
+                                Gloss</h5>
+                            <p class="card-text">สีน้ำอะครีลิคแท้ 100% เกรดอัลตร้าพรีเมี่ยม ผลิตจากอะคริลิคเกรดพิเศษ
+                                ช่วยให้การยึดเกาะพื้นผิวดีเยี่ยม ป้องกันสีลอกเป็นฝุ่นผง ทนทานการขัดถู
+                                ป้องกันคราบด่างและเกลือ
+                                ป้องกันเชื้อราและตะไคร่น้ำ</p>
+                            <p class="card-text">ราคา 1,770 บาท</p>
+                            <a href=""><button type="button" class=" btn
+                                    btn-outline-secondary">ดูรายละเอียดสินค้าเพิ่มเติม</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action-Section -->
+        <section id="cta">
+            <div class="container">
+                <div class="row cta-details">
+                    <div class="col-md-6">
+                        <h3>Our work from clients</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur expedita praesentium in
+                            veritatis itaque quidem, illum laborum nostrum atque tempore soluta dolor unde illo
+                            voluptas,
+                            cum molestias deleniti magnam doloribus!
+                            Eos iusto, nemo quibusdam ipsam iure deleniti quas alias. Reprehenderit ab, explicabo sit
+                            eaque
+                            cumque nihil, tenetur animi modi architecto unde minima ea quasi accusantium ipsa molestias!
+                            Exercitationem, facere cupiditate.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cta-id-line">
+                            <p>ID Line:@sudeepaint</p>
+                            <figure>
+                                <img class="cta-id-line-image" src="images\cta-qr-code\zudeepaint-qr-code.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Trusted-Brand -->
+        <Section id="trusted-Brand">
+            <h2>Trusted Brand</h2>
+            <figure class="container">
+                <img class="trusted-brand-image" src=" images\trusted-brand\trusted-brand-1.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-2.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-3.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-4.png" alt="trusted-brand">
+                <img class="trusted-brand-image " src="images\trusted-brand\trusted-brand-5.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-6.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-7.png" alt="trusted-brand">
+                <img class="trusted-brand-image" src="images\trusted-brand\trusted-brand-8.png" alt="trusted-brand">
+
+            </figure>
+        </Section>
+        <!-- Articles-Section -->
+        <section id="articles-section">
+            <h2>Our Articles</h2>
+            <div class="container">
+                <div class="card-group">
+                    <div class="row">
+                        <div class="card col-lg-4">
+                            <img src="images/article-images/article-image.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Article 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    aliquam
+                                    recusandae sunt provident, consectetur repudiandae dolorem ipsa, blanditiis sit
+                                    magnam
+                                    labore suscipit. Quod ipsum minus molestias incidunt, expedita laboriosam sequi.</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4">
+                            <img src="images/article-images/article-image.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Article 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    aliquam
+                                    recusandae sunt provident, consectetur repudiandae dolorem ipsa, blanditiis sit
+                                    magnam
+                                    labore suscipit. Quod ipsum minus molestias incidunt, expedita laboriosam sequi.</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4">
+                            <img src="images/article-images/article-image.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Article 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    aliquam
+                                    recusandae sunt provident, consectetur repudiandae dolorem ipsa, blanditiis sit
+                                    magnam
+                                    labore suscipit. Quod ipsum minus molestias incidunt, expedita laboriosam sequi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </Main>
+    <!-- Footer -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <nav class="nav flex-column">
+                    <a href="" class="nav-item footer-nav-item">Home</a>
+                    <a href="" class="nav-item footer-nav-item">Products</a>
+                    <a href="" class="nav-item footer-nav-item">Promotions and News</a>
+                    <a href="" class="nav-item footer-nav-item">Articles</a>
+                </nav>
+
+            </div>
+            <div class="footer-location-detail col-lg-4">
+                <h5>Location</h5>
+                <p>797,799 Ramkhamhaeng Hua Mak, Bang Kapi, Bangkok, Thailand. 10240</p>
+                <p>Mobile : 092-615-6424,02-374-2540 Fax : 02-732-2503</p>
+            </div>
+            <div class="col-lg-4">
+                <h5>Contact Us</h5>
+                <p>บริษัท สุดีเพ้นท์เซ็นเตอร์ จำกัด</p>
+                <p>ที่อยู่บริษัท 797,799 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240</p>
+                <p>เบอร์โทรศัพท์:092-615-6424,023742540 แฟ็กซ์:02-732-2503</p>
+                <p>อีเมล์ : sudeepaint@hotmail.com</p>
+            </div>
+            <p class="copyright">&copy;Copyright by Zudeepaint 2021</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
